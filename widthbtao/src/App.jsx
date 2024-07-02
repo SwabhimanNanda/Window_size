@@ -1,9 +1,9 @@
 import "./App.css";
 import Wfinder from "./components/Wfinder";
 function App() {
-  return <div>
+  return <>
   <Wfinder/>
-  </div>;
+  </>;
 }
 
 export default App;
