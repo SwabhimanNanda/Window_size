@@ -12,7 +12,7 @@ const Wfinder = () => {
     })
   return (
     <div className='flex flex-col justify-center items-center h-screen gap-y-24'>
-      <p className='text-9xl'>Know your screen Width</p>
+      <p className='text-9xl text-center'>Know your screen Width</p>
       <h1 className='text-6xl'>Width :{width}</h1>
       <h1 className='text-6xl'>height :{height}</h1>
     </div>
