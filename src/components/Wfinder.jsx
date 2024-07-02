@@ -11,10 +11,10 @@ const Wfinder = () => {
      window.addEventListener("resize" , check)   
     })
   return (
-    <div style={{display:'flex' , flexDirection:'column' , justifyContent:'center' , alignItems:"center"}}>
-      <p style={{fontSize:'70px'}}>Know your screen Width</p>
-      <h1 style={{fontSize:'50px'}}>Width :{width}</h1>
-      <h1 style={{fontSize:'50px'}}>height :{height}</h1>
+    <div className='flex flex-col justify-center items-center h-screen gap-y-24'>
+      <p className='text-9xl'>Know your screen Width</p>
+      <h1 className='text-6xl'>Width :{width}</h1>
+      <h1 className='text-6xl'>height :{height}</h1>
     </div>
   )
 }
